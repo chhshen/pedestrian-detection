@@ -1,3 +1,12 @@
+# Pedestrian Detection
+
+This code produces the results presented in 
+<http://arxiv.org/abs/1409.5209>
+on the Caltech dataset (optical flow used; so it doesn't work on the INRIA dataset)
+with BING as the pre-processor. 
+
+
+
 #The current demo contains a few test images from Caltech Pedestrian data sets
 (set07, V004). 
 

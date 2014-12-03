@@ -7,6 +7,8 @@ with BING as the pre-processor.
 
 
 
+
+
 - The current demo contains a few test images from Caltech Pedestrian data sets
 (set07, V004).
 
@@ -27,4 +29,8 @@ with BING as the pre-processor.
        seq video files from <http://vision.ucsd.edu/~pdollar/toolbox/doc/index.html>
 
 
-__Tested on Linux (Ubuntu 10.04), Matlab 2013a__
+The code has been tested to run on Ubuntu 14.04LTS (kernel: Linux 3.13.0-39-generic #66-Ubuntu SMP x86_64 GNU/Linux),
+Matlab 2013a.
+
+
+

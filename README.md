@@ -32,7 +32,7 @@ BibTeX:
 
 `	matlab> demo`
 
-__WARNING: It may take 2 to 4 hours to get the result, depending on your machine.__
+__WARNING: It may take 2 to 4 hours to get the result, depending on your machine.__ You should see a plot as below.
 
 
 - More Caltech Pedestrian test data can be obtained from

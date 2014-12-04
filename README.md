@@ -12,11 +12,13 @@ with BING as the pre-processor.
 - The current demo contains a few test images from Caltech Pedestrian data sets
 (set07, V004).
 
--- 1. Compile optical flow source code by
-`	-sh> ./Compile.sh`
+-- 1. Compile optical flow source code if needed by (Precompiled files provided already! You may not need to compile your own version)
+`	sh> ./mex_optical.sh`
 
--- 2. Run demo.m
-`	-matlab> demo`
+-- 2. Run demo.m (This will generate the ROC curve on the Caltech dataset set07, V004. It will download the data first ~400M.)
+`	matlab> demo`
+
+
 
 - More Caltech Pedestrian test data can be obtained from
 

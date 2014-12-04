@@ -32,6 +32,7 @@ BibTeX:
 
 `	matlab> demo`
 
+__WARNING: It may take 2 to 4 hours to get the result, depending on your machine.__
 
 
 - More Caltech Pedestrian test data can be obtained from
@@ -49,4 +50,5 @@ The code has been tested to run on Ubuntu 14.04LTS (kernel: Linux 3.13.0-39-gene
 Matlab 2013a.
 
 
+![ROC curve](https://github.com/chhshen/pedestrian-detection/blob/master/roc.png "ROC curve")
 

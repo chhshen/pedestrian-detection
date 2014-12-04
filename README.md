@@ -6,16 +6,30 @@ on the Caltech dataset (optical flow used; so it doesn't work on the INRIA datas
 with BING as the pre-processor.
 
 
+BibTeX:
 
+```
+@inproceedings{PaisitkriangkraiSH14b,
+   author              = {Sakrapee Paisitkriangkrai and
+                          Chunhua Shen and
+                          Anton van den Hengel},
+   title               = {Pedestrian Detection with Spatially Pooled Features and Structured Ensemble Learning},
+   journal             = {CoRR},
+   year                = {2014},
+   ee                  = {http://arxiv.org/abs/1409.5209},
+}
+```
 
 
 - The current demo contains a few test images from Caltech Pedestrian data sets
 (set07, V004).
 
--- 1. Compile optical flow source code if needed by (Precompiled files provided already! You may not need to compile your own version)
+- 1. Compile optical flow source code if needed by (Precompiled files provided already! You may not need to compile your own version)
+
 `	sh> ./mex_optical.sh`
 
--- 2. Run demo.m (This will generate the ROC curve on the Caltech dataset set07, V004. It will download the data first ~400M.)
+- 2. Run demo.m (This will generate the ROC curve on the Caltech dataset set07, V004. It will download the data first ~400M.)
+
 `	matlab> demo`
 
 

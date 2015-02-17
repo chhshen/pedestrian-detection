@@ -6,7 +6,23 @@ on the Caltech dataset (optical flow used; so it doesn't work on the INRIA datas
 with BING as the pre-processor.
 
 
-BibTeX:
+
+
+
+If you use this code in your research, please cite our papers:
+
+```
+@inproceedings{PaisitkriangkraiSH14a,
+   author              = {Sakrapee Paisitkriangkrai and
+                          Chunhua Shen and
+                          Anton {van den Hengel}},
+   title               = {Strengthening the Effectiveness of Pedestrian Detection with Spatially Pooled Features},
+   booktitle           = {Proc. European Conf. Comp. Vis.},
+   year                = {2014},
+   ee                  = {http://arxiv.org/abs/1407.0786},
+}
+```
+
 
 ```
 @inproceedings{PaisitkriangkraiSH14b,
@@ -19,6 +35,7 @@ BibTeX:
    ee                  = {http://arxiv.org/abs/1409.5209},
 }
 ```
+
 
 
 - The current demo contains a few test images from Caltech Pedestrian data sets

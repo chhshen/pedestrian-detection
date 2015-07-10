@@ -8,9 +8,11 @@ matlabpool open
 addpath(genpath('./Helpers'));
 
 
+
 if ~exist('test_images', 'dir')
     % url='http://cs.adelaide.edu.au/~paulp/Caltech_test.zip';
-    url='https://bitbucket.org/chhshen/data/src/56e66a9e7fa0d5ab6126720a00d05b93d2725dcb/Caltech_test_images.zip?at=master'
+    url='https://bitbucket.org/chhshen/data/src/56e66a9e7fa0d5ab6126720a00d05b93d2725dcb/Caltech_test_images.zip'
+
     fprintf('Downloading Caltech.USA test images ...\n');
     unzip(url, './');
     fprintf('Download completed ...\n');

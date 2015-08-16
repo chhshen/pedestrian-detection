@@ -30,8 +30,8 @@ If you use this code in your research, please cite our papers:
                           Chunhua Shen and
                           Anton van den Hengel},
    title               = {Pedestrian Detection with Spatially Pooled Features and Structured Ensemble Learning},
-   journal             = {CoRR},
-   year                = {2014},
+   journal             = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+   year                = {2015},
    ee                  = {http://arxiv.org/abs/1409.5209},
 }
 ```
